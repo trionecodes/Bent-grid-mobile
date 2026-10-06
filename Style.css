@@ -4,16 +4,117 @@
   padding: 0;
 }
 .bento-grid{
-  justify-content: center;
+  margin: 10 auto;
+  width: 90%;
   display: grid;
-  grid-template-columns: 1fr 1.25fr 1fr;
-  overflow: hidden;
+  background-color: ghostwhite;
+  border: 1px white solid;
   padding: 10px;
-  gap: 20px;
 }
 img{
   width:50%
 }
+
+
 .item1{
-  background-color: hwb(272 8% 41% / 0.9568627450980393)
+  background-color: hwb(272 8% 41% / 0.9568627450980393);
+  padding: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 40px;
+  color: snow;
+  text-align: center;
+  margin-bottom: 20px 0;
 }
+.multi{
+  color: darkgoldenrod;
+}
+
+ .star{
+   color:snow;
+   font-size: 18px;
+}
+
+ .item2{
+  font-weight: bold;
+   font-size: 25px;
+   padding: 10px;
+   background-color: snow;
+   display: block;
+   text-align: center;
+   justify-content: center;
+  }
+  .acc{
+    font-weight: 5000;
+    margin-top: 20px;
+  }
+
+  .item3{
+    background-color: goldenrod;
+    padding: 15px 0 0 15px;
+    border-radius: 10px;
+  }
+  .post, .stats{
+    font-size: 25px;
+    font-weight: bolder
+  }
+
+  .item4{
+    background-color: aqua;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+
+  }
+  .sched{
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+
+.item7{
+  background-color: pink;
+  padding: 20px;
+  border-radius: 15px;
+  
+}
+
+
+  .item8{
+    margin: 15px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  .quick{
+    color: hwb(272 8% 41% / 0.9568627450980393);
+  }
+  .stats{
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  .opt{
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .item6{
+    background-color: snow;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+  }
+  .item5{
+    background-color: hwb(272 8% 41% / 0.9568627450980393);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .grow{
+    color: snow;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+  }
